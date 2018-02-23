@@ -45,6 +45,8 @@ public class LoginPage extends TestBase{
 
         JavascriptExecutor js =(JavascriptExecutor)driver;
         js.executeScript("arguments[0].click();",loginBtn);
+        System.out.println("Sucessful Login");
+
 
         return new HomePage();
     }
